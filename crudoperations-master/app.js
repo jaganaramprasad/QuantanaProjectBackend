@@ -54,13 +54,13 @@ const updateTask = async(req,res)=>{
         res.status(500).json({msg:error}) 
        }
 }
-app.get('/getAllEmployees', getAllTasks)
+app.get('/getAllMovie', getAllTasks)
 
-app.post('/addNewEmployee', createUser)
+app.post('/addNewMovie', createUser)
 
-app.patch('/editEmployee/:id', updateTask)
+app.patch('/editMoive/:id', updateTask)
 
-app.delete('/deleteEmployee/:id', deleteTask)
+app.delete('/deleteMoive/:id', deleteTask)
 
 
 

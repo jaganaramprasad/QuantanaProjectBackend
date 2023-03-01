@@ -7,13 +7,13 @@ const TaskSchema = new mongoose.Schema({
         trim:true,
         maxlength:[25, "Can't exceed more then 25 letters"]
     },
-    role:{
+    date:{
         type:String, 
        
         trim:true,
         maxlength:[25, "Can't exceed more then 25 letters"]
     },
-    gender:{
+    genre:{
         type:String,
         trim:true,
         maxlength:[25, "Can't exceed more then 25 letters"]
